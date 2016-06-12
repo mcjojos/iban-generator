@@ -1,0 +1,4 @@
+#a:(A-Z);n:(0-9);c:(a–z, A–Z, 0–9);
+DE;22;18n;DEkk bbbb bbbb cccc cccc cc
+AT;20;16n;ATkk bbbb bccc cccc cccc
+NL;18;4a,10n;NLkk bbbb cccc cccc cc

@@ -36,7 +36,7 @@ Import into your project the file
 ###### Typical usage
 
 Once you have resolved the dependencies with one way or another, you can start using the tool.
-A typical usage of the tool from a client point of view is
+A typical usage of the tool from a client's point of view is
 ```Java
 // Generate a random valid IBAN for The Netherlands.
 Iban iban = IbanApi.generateFor(CountryISO.NL);

@@ -2,9 +2,9 @@
 A utility for generating test IBANs.
 
 ## Synopsis
-The utility provides functionality to generate valid IBANs for different countries. Valid in this context means syntactically valid according to the [ISO standard](https://en.wikipedia.org/wiki/International_Bank_Account_Number), but not necessarily existing bank accounts.
+The utility provides functionality to generate valid IBANs for different countries. Valid in this context means syntactically valid according to the [ISO standard](https://en.wikipedia.org/wiki/International_Bank_Account_Number), but not necessarily existing bank accounts. 
 For the time being it is providing support for Germany, Austria and the Netherlands, but it is easily extensible by providing a custom implementation of the [CountryFormatProvider interface](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/country/CountryFormatProvider.java) and calling the API function of [IbanApi](src/main/java/com/jojos/challenge/iban/api/IbanApi.java).
-The IBAN generator tool guarantees uniqueness of the generated IBANs within a specific instance of the tool and it is thread safe.
+The IBAN generator tool guarantees uniqueness of the generated IBANs within a specific instance of the tool and it is thread safe. The [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) is used to represent the country codes.
 This tool can be used as a library by other services.
 Moreover, automated tests are executed in parallel and concurrently use this library for generating test data.
 

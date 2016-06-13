@@ -27,7 +27,6 @@ Therefore you will need Java 8 and maven to build it.
 mvn package
 or
 mvn package -Dmaven.test.skip=true
-
 if you need to skip the tests since they might take some time
 ```
 You will need the -jar-with-dependencies.jar under the target/ folder of your current directory.

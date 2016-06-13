@@ -1,5 +1,5 @@
 # iban-generator-utility
-A utility for generating test IBAN's.
+A utility for generating test IBANs.
 
 ## Synopsis
 The utility provide functionality to generate valid IBAN's for different countries. Valid in this context means syntactically valid according to the ISO standard, but not necessarily existing bank accounts.

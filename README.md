@@ -49,10 +49,11 @@ System.out.println(iban.asString());
 
 The countries currently supported are Austria (country code: AT), Germany (DE) and Netherlands (NL)
 You can use use your custom implementations of
-1. [CountryFormatProvider](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/country/CountryFormatProvider.java)
+
+- [CountryFormatProvider](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/country/CountryFormatProvider.java)
 for supporting more countries and
-2. [IbanFormatter](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/format/IbanFormatter.java)
-for supporting your own IBAN print format overriding methods #asHumanReadableString(Iban) and #asString(Iban)
+- [IbanFormatter](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/format/IbanFormatter.java) for supporting your own IBAN print format overriding methods #asHumanReadableString(Iban) and #asString(Iban)
+
 and make a different function call of the [IbanApi#generateFor(CountryISO, IbanFormatter, CountryFormatProvider)](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/api/IbanApi.java)
 
 **ENJOY!**

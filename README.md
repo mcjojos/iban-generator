@@ -10,7 +10,7 @@ Moreover, automated tests are executed in parallel and concurrently use this lib
 
 ## Requirements
 The IBAN generator is written in Java 8 as a Maven project
-Therefor you will need Java 8 and maven to build it.
+Therefore you will need Java 8 and maven to build it.
 
 ## How do I use it?
 - You can import the project as a maven dependency like that

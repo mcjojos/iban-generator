@@ -31,7 +31,7 @@ import static org.powermock.api.mockito.PowerMockito.when;
  * Created by karanikasg@gmail.com.
  */
 @RunWith(PowerMockRunner.class)
-@PrepareForTest({ CountryFormatProviderFactory.class, Helper.class})
+@PrepareForTest({ CountryFormatProviderFactory.class, Helper.class, CountryFormatProvider.class})
 public class IbanApiTest {
 
     private static CountryFormatProvider countryFormatProvider;

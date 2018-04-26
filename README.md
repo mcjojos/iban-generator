@@ -1,4 +1,4 @@
-# iban-generator-utility
+# iban-generator-utility 
 A utility for generating test IBANs.
 
 ## Synopsis
@@ -21,7 +21,7 @@ The IBAN generator is written in Java 8 as a Maven project. Therefore you will n
         </dependency>
 ```
 
-- Alternatively you can clone/download the project and build the application with
+- Alternatively you can clone/download the project and build the application with 
 ```
 mvn package
 or
@@ -54,5 +54,7 @@ for supporting more countries and
 - [IbanFormatter](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/format/IbanFormatter.java) for supporting your own IBAN print format overriding methods #asHumanReadableString(Iban) and #asString(Iban)
 
 and make a different function call of the [IbanApi#generateFor(CountryISO, IbanFormatter, CountryFormatProvider)](https://github.com/mcjojos/iban-generator-utility/blob/master/src/main/java/com/jojos/challenge/iban/api/IbanApi.java)
+
+yes the ampersand symbol is &amp;!
 
 **ENJOY!**
